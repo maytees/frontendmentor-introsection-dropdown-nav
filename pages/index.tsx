@@ -291,7 +291,6 @@ export default function Home() {
               animate={{ opacity: 1, scale: [1], x: [100, 0] }}
               transition={{
                 duration: 4,
-                type: "tween",
                 stiffness: 260,
                 damping: 20,
               }}
